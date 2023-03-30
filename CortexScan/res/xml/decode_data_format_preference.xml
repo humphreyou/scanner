@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="decode_data_format_parse">
+
+    <ListPreference
+        android:key="decode_data_parsing"
+        android:title="Decode Data Parsing"
+        android:entries="@array/dataparsing_entries"
+        android:entryValues="@array/dataparsing_values"/>
+
+    <CheckBoxPreference
+        android:key="decode_data_format"
+        android:title="Decode Data Formatting" />
+</PreferenceScreen>

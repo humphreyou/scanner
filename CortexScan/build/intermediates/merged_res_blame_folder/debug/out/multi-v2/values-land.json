@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codecorp.cortex_scan.CortexScan-mergeDebugResources-15:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\humphreyou\\.gradle\\caches\\transforms-3\\59b2b8aa966ca0505256a3e2c67b2462\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\humphreyou\\.gradle\\caches\\transforms-3\\392f1217dc4e6064a586554744d96ebb\\transformed\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

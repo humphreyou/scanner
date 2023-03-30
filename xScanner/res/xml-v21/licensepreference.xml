@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="license_preference">
+
+    <PreferenceCategory android:title="Manual Activation">
+        <Preference
+            android:icon="@drawable/c2v_tq"
+            android:key="generate_deviceID"
+            android:title="@string/deviceID" />
+        <Preference
+            android:icon="@drawable/v2c_tq"
+            android:key="load_license"
+            android:title="@string/loadlicense" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Online Activation">
+        <Preference
+            android:icon="@drawable/activate_tq"
+            android:key="activate"
+            android:summary="@string/summaryActivateButton"
+            android:title="@string/activate" />
+    </PreferenceCategory>
+</PreferenceScreen>

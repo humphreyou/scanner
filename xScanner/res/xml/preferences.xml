@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.SeekBarPreference
+        android:defaultValue="1"
+        android:key="seekbar_value"
+        android:max="100"
+        android:min="0"
+        android:persistent="true"
+        app:showSeekBarValue="true"
+        android:title="Decode Barcodes" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="multi_res_mode"
+        android:title="Multi-Resolution mode"/>
+
+    <Preference
+        android:key="license_activate"
+        android:title="@string/license_activation" />
+
+</androidx.preference.PreferenceScreen>

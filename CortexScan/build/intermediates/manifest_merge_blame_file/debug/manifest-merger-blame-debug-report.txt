@@ -1,0 +1,484 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.decoder.scanner"
+4    android:versionCode="79"
+5    android:versionName="3.4.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:7:5-65
+11-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:8:5-67
+12-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:9:5-81
+13-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:10:5-66
+14-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:10:22-63
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:11:5-79
+15-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:11:22-76
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:13:5-60
+17-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:13:19-57
+18    <uses-feature android:name="android.hardware.camera.autofocus" />
+18-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:14:5-70
+18-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:14:19-67
+19    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+19-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:5-74
+19-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:19-71
+20
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22
+23    <application
+23-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:16:5-236:19
+24        android:name="com.codecorp.cortex_scan.MyApplication"
+24-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:17:9-38
+25        android:allowBackup="false"
+25-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:18:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_app_logo"
+29-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:19:9-43
+30        android:label="CortexScan"
+30-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:20:9-35
+31        android:largeHeap="true" >
+31-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:21:9-33
+32        <activity
+32-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:23:9-34:20
+33            android:name="com.codecorp.cortex_scan.SplashScreen"
+33-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:24:13-41
+34            android:configChanges="orientation|screenSize"
+34-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:25:13-59
+35            android:exported="true"
+35-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:27:13-36
+36            android:screenOrientation="portrait"
+36-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:26:13-49
+37            android:theme="@style/SplashTheme" >
+37-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:28:13-47
+38            <intent-filter>
+38-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:29:13-33:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:30:17-69
+39-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:32:17-77
+41-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:32:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:35:9-39:59
+45            android:name="com.codecorp.cortex_scan.StartUpScreen"
+45-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:36:13-42
+46            android:configChanges="orientation|screenSize"
+46-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:37:13-59
+47            android:screenOrientation="portrait"
+47-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:38:13-49
+48            android:theme="@style/SplashTheme" />
+48-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:39:13-47
+49        <activity
+49-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:40:9-46:60
+50            android:name="com.codecorp.cortex_scan.CortexScan"
+50-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:41:13-39
+51            android:configChanges="orientation|screenSize"
+51-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:42:13-59
+52            android:label="@string/scanner_activity"
+52-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:43:13-53
+53            android:launchMode="singleTask"
+53-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:44:13-44
+54            android:screenOrientation="portrait"
+54-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:45:13-49
+55            android:theme="@style/ScannerTheme" />
+55-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:46:13-48
+56        <activity
+56-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:47:9-53:52
+57            android:name="com.codecorp.cortex_scan.SettingsActivity"
+57-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:48:13-45
+58            android:configChanges="orientation|screenSize"
+58-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:49:13-59
+59            android:label="@string/settings"
+59-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:50:13-45
+60            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+60-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:51:13-53
+61            android:screenOrientation="portrait"
+61-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:52:13-49
+62            android:theme="@style/SettingsTheme" />
+62-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:53:13-49
+63        <activity
+63-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:54:9-60:52
+64            android:name="com.codecorp.cortex_scan.InformationActivity"
+64-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:55:13-48
+65            android:configChanges="orientation|screenSize"
+65-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:56:13-59
+66            android:label="@string/information"
+66-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:57:13-48
+67            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+67-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:58:13-53
+68            android:screenOrientation="portrait"
+68-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:59:13-49
+69            android:theme="@style/SettingsTheme" />
+69-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:60:13-49
+70        <activity
+70-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:61:9-67:52
+71            android:name="com.codecorp.cortex_scan.SymbologiesActivity"
+71-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:62:13-48
+72            android:configChanges="orientation|screenSize"
+72-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:63:13-59
+73            android:label="@string/symbologies"
+73-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:64:13-48
+74            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+74-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:65:13-59
+75            android:screenOrientation="portrait"
+75-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:66:13-49
+76            android:theme="@style/SettingsTheme" />
+76-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:67:13-49
+77        <activity
+77-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:68:9-74:51
+78            android:name="com.codecorp.cortex_scan.LicenseActivity"
+78-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:69:13-44
+79            android:configChanges="orientation|screenSize"
+79-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:70:13-59
+80            android:label="@string/license_activation"
+80-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:71:13-55
+81            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+81-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:72:13-59
+82            android:screenOrientation="portrait"
+82-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:73:13-49
+83            android:theme="@style/LicenseTheme" />
+83-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:74:13-48
+84        <activity
+84-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:75:9-81:52
+85            android:name="com.codecorp.cortex_scan.LicenseActivityDeprecated"
+85-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:76:13-54
+86            android:configChanges="orientation|screenSize"
+86-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:77:13-59
+87            android:label="@string/license_activation"
+87-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:78:13-55
+88            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+88-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:79:13-59
+89            android:screenOrientation="portrait"
+89-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:80:13-49
+90            android:theme="@style/SettingsTheme" />
+90-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:81:13-49
+91        <activity
+91-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:82:9-88:52
+92            android:name="com.codecorp.cortex_scan.AdvancedFocusSettings"
+92-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:83:13-50
+93            android:configChanges="orientation|screenSize"
+93-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:84:13-59
+94            android:label="Advanced Focus Settings"
+94-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:85:13-52
+95            android:parentActivityName="com.codecorp.cortex_scan.CameraSettings"
+95-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:86:13-57
+96            android:screenOrientation="portrait"
+96-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:87:13-49
+97            android:theme="@style/SettingsTheme" />
+97-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:88:13-49
+98        <activity
+98-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:89:9-95:52
+99            android:name="com.codecorp.cortex_scan.CameraSettings"
+99-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:90:13-43
+100            android:configChanges="orientation|screenSize"
+100-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:91:13-59
+101            android:label="Camera Settings"
+101-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:92:13-44
+102            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+102-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:93:13-59
+103            android:screenOrientation="portrait"
+103-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:94:13-49
+104            android:theme="@style/SettingsTheme" />
+104-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:95:13-49
+105        <activity
+105-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:96:9-102:52
+106            android:name="com.codecorp.cortex_scan.LargeDataActivity"
+106-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:97:13-46
+107            android:configChanges="orientation|screenSize"
+107-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:98:13-59
+108            android:label="@string/data_display"
+108-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:99:13-49
+109            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+109-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:100:13-53
+110            android:screenOrientation="portrait"
+110-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:101:13-49
+111            android:theme="@style/SettingsTheme" />
+111-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:102:13-49
+112        <activity
+112-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:103:9-109:52
+113            android:name="com.codecorp.cortex_scan.detailsymbologysettings.CodabarSymbologySettings"
+113-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:104:13-77
+114            android:configChanges="orientation|screenSize"
+114-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:105:13-59
+115            android:label="Codabar Properties"
+115-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:106:13-47
+116            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+116-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:107:13-62
+117            android:screenOrientation="portrait"
+117-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:108:13-49
+118            android:theme="@style/SettingsTheme" />
+118-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:109:13-49
+119        <activity
+119-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:110:9-116:52
+120            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code128SymbologySettings"
+120-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:111:13-77
+121            android:configChanges="orientation|screenSize"
+121-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:112:13-59
+122            android:label="Code128 Properties"
+122-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:113:13-47
+123            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+123-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:114:13-62
+124            android:screenOrientation="portrait"
+124-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:115:13-49
+125            android:theme="@style/SettingsTheme" />
+125-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:116:13-49
+126        <activity
+126-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:117:9-123:52
+127            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code93SymbologySettings"
+127-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:118:13-76
+128            android:configChanges="orientation|screenSize"
+128-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:119:13-59
+129            android:label="Code93 Properties"
+129-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:120:13-46
+130            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+130-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:121:13-62
+131            android:screenOrientation="portrait"
+131-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:122:13-49
+132            android:theme="@style/SettingsTheme" />
+132-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:123:13-49
+133        <activity
+133-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:124:9-130:52
+134            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code11SymbologySettings"
+134-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:125:13-76
+135            android:configChanges="orientation|screenSize"
+135-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:126:13-59
+136            android:label="Code11 Properties"
+136-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:127:13-46
+137            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+137-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:128:13-62
+138            android:screenOrientation="portrait"
+138-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:129:13-49
+139            android:theme="@style/SettingsTheme" />
+139-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:130:13-49
+140        <activity
+140-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:131:9-137:52
+141            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code39SymbologySettings"
+141-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:132:13-76
+142            android:configChanges="orientation|screenSize"
+142-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:133:13-59
+143            android:label="Code39 Properties"
+143-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:134:13-46
+144            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+144-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:135:13-62
+145            android:screenOrientation="portrait"
+145-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:136:13-49
+146            android:theme="@style/SettingsTheme" />
+146-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:137:13-49
+147        <activity
+147-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:138:9-144:52
+148            android:name="com.codecorp.cortex_scan.detailsymbologysettings.EAN13SymbologySettings"
+148-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:139:13-75
+149            android:configChanges="orientation|screenSize"
+149-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:140:13-59
+150            android:label="EAN-13 Properties"
+150-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:141:13-46
+151            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+151-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:142:13-62
+152            android:screenOrientation="portrait"
+152-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:143:13-49
+153            android:theme="@style/SettingsTheme" />
+153-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:144:13-49
+154        <activity
+154-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:145:9-151:52
+155            android:name="com.codecorp.cortex_scan.detailsymbologysettings.EAN8SymbologySettings"
+155-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:146:13-74
+156            android:configChanges="orientation|screenSize"
+156-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:147:13-59
+157            android:label="EAN-8 Properties"
+157-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:148:13-45
+158            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+158-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:149:13-62
+159            android:screenOrientation="portrait"
+159-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:150:13-49
+160            android:theme="@style/SettingsTheme" />
+160-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:151:13-49
+161        <activity
+161-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:152:9-158:52
+162            android:name="com.codecorp.cortex_scan.detailsymbologysettings.HongKong2of5SymbologySettings"
+162-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:153:13-82
+163            android:configChanges="orientation|screenSize"
+163-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:154:13-59
+164            android:label="HongKong 2 of 5 Properties"
+164-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:155:13-55
+165            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+165-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:156:13-62
+166            android:screenOrientation="portrait"
+166-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:157:13-49
+167            android:theme="@style/SettingsTheme" />
+167-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:158:13-49
+168        <activity
+168-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:159:9-165:52
+169            android:name="com.codecorp.cortex_scan.detailsymbologysettings.IATA2of5SymbologySettings"
+169-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:160:13-78
+170            android:configChanges="orientation|screenSize"
+170-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:161:13-59
+171            android:label="IATA 2 of 5 Properties"
+171-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:162:13-51
+172            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+172-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:163:13-62
+173            android:screenOrientation="portrait"
+173-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:164:13-49
+174            android:theme="@style/SettingsTheme" />
+174-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:165:13-49
+175        <activity
+175-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:166:9-172:52
+176            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Interleaved2of5SymbologySettings"
+176-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:167:13-85
+177            android:configChanges="orientation|screenSize"
+177-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:168:13-59
+178            android:label="Interleaved 2 of 5 Properties"
+178-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:169:13-58
+179            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+179-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:170:13-62
+180            android:screenOrientation="portrait"
+180-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:171:13-49
+181            android:theme="@style/SettingsTheme" />
+181-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:172:13-49
+182        <activity
+182-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:173:9-179:52
+183            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Matrix2of5SymbologySettings"
+183-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:174:13-80
+184            android:configChanges="orientation|screenSize"
+184-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:175:13-59
+185            android:label="Matrix 2 of 5 Properties"
+185-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:176:13-53
+186            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+186-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:177:13-62
+187            android:screenOrientation="portrait"
+187-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:178:13-49
+188            android:theme="@style/SettingsTheme" />
+188-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:179:13-49
+189        <activity
+189-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:180:9-186:52
+190            android:name="com.codecorp.cortex_scan.detailsymbologysettings.NEC2of5SymbologySettings"
+190-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:181:13-77
+191            android:configChanges="orientation|screenSize"
+191-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:182:13-59
+192            android:label="NEC 2 of 5 Properties"
+192-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:183:13-50
+193            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+193-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:184:13-62
+194            android:screenOrientation="portrait"
+194-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:185:13-49
+195            android:theme="@style/SettingsTheme" />
+195-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:186:13-49
+196        <activity
+196-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:187:9-193:52
+197            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Straight2of5SymbologySettings"
+197-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:188:13-82
+198            android:configChanges="orientation|screenSize"
+198-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:189:13-59
+199            android:label="Straight 2 of 5 Properties"
+199-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:190:13-55
+200            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+200-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:191:13-62
+201            android:screenOrientation="portrait"
+201-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:192:13-49
+202            android:theme="@style/SettingsTheme" />
+202-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:193:13-49
+203        <activity
+203-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:194:9-200:52
+204            android:name="com.codecorp.cortex_scan.detailsymbologysettings.MSIPlesseySymbologySettings"
+204-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:195:13-80
+205            android:configChanges="orientation|screenSize"
+205-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:196:13-59
+206            android:label="MSI Plessey 2 of 5 Properties"
+206-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:197:13-58
+207            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+207-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:198:13-62
+208            android:screenOrientation="portrait"
+208-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:199:13-49
+209            android:theme="@style/SettingsTheme" />
+209-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:200:13-49
+210        <activity
+210-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:201:9-207:52
+211            android:name="com.codecorp.cortex_scan.detailsymbologysettings.UPCASymbologySettings"
+211-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:202:13-74
+212            android:configChanges="orientation|screenSize"
+212-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:203:13-59
+213            android:label="UPC-A Properties"
+213-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:204:13-45
+214            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+214-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:205:13-62
+215            android:screenOrientation="portrait"
+215-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:206:13-49
+216            android:theme="@style/SettingsTheme" />
+216-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:207:13-49
+217        <activity
+217-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:208:9-214:52
+218            android:name="com.codecorp.cortex_scan.detailsymbologysettings.UPCESymbologySettings"
+218-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:209:13-74
+219            android:configChanges="orientation|screenSize"
+219-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:210:13-59
+220            android:label="UPC-E Properties"
+220-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:211:13-45
+221            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+221-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:212:13-62
+222            android:screenOrientation="portrait"
+222-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:213:13-49
+223            android:theme="@style/SettingsTheme" />
+223-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:214:13-49
+224        <activity
+224-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:215:9-221:52
+225            android:name="com.codecorp.cortex_scan.detailsymbologysettings.GS1DataBarSymbologySettings"
+225-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:216:13-80
+226            android:configChanges="orientation|screenSize"
+226-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:217:13-59
+227            android:label="GS1 DataBar Properties"
+227-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:218:13-51
+228            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+228-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:219:13-62
+229            android:screenOrientation="portrait"
+229-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:220:13-49
+230            android:theme="@style/SettingsTheme" />
+230-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:221:13-49
+231        <activity
+231-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:222:9-228:52
+232            android:name="com.codecorp.cortex_scan.detailsymbologysettings.CompositeCodeSymbologySettings"
+232-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:223:13-83
+233            android:configChanges="orientation|screenSize"
+233-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:224:13-59
+234            android:label="Composite Code"
+234-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:225:13-43
+235            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+235-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:226:13-62
+236            android:screenOrientation="portrait"
+236-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:227:13-49
+237            android:theme="@style/SettingsTheme" />
+237-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:228:13-49
+238        <activity
+238-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:229:9-235:52
+239            android:name="com.codecorp.cortex_scan.DecodeDataParsingFormatting"
+239-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:230:13-56
+240            android:configChanges="orientation|screenSize"
+240-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:231:13-59
+241            android:label="Data Parsing and Formatting"
+241-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:232:13-56
+242            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+242-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:233:13-59
+243            android:screenOrientation="portrait"
+243-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:234:13-49
+244            android:theme="@style/SettingsTheme" />
+244-->F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:235:13-49
+245    </application>
+246
+247</manifest>

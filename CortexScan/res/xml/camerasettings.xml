@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="camera_settings">
+    <ListPreference
+        android:defaultValue="Back-Facing"
+        android:icon="@drawable/camerapref_tq"
+        android:key="camera_type"
+        android:title="@string/camera_type" />
+    <ListPreference
+        android:defaultValue="1280 x 720"
+        android:entries="@array/resolution_entries"
+        android:entryValues="@array/resolution_values"
+        android:icon="@drawable/resolution_tq"
+        android:key="resolution"
+        android:title="@string/resolution" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/illuminationpref_tq"
+        android:key="illumination"
+        android:title="@string/illumination" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/exposurepref_tq"
+        android:key="exposure_setting"
+        android:title="Manual Exposure Mode" />
+    <ListPreference
+        android:defaultValue="Auto"
+        android:icon="@drawable/focuspref_tq"
+        android:key="focus"
+        android:title="@string/focus" />
+    <Preference
+        android:key="advanced_focus_setting"
+        android:title="Advanced Focus Settings" />
+
+</PreferenceScreen>

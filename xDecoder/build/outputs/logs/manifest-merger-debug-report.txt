@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:1:1-16:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:1:1-16:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:1:1-16:12
+	package
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:2:1-26
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:3:1-61
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:3:18-58
+uses-permission#android.permission.VIBRATE
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:4:1-62
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:4:18-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:5:1-77
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:5:18-74
+uses-feature#android.hardware.camera
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:6:1-56
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:6:15-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:7:1-66
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:7:15-63
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:8:1-70
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:8:15-67
+queries
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:10:1-15:11
+intent#action:name:com.qualcomm.qti.openxr.intent.action.BIND+category:name:com.qualcomm.qti.openxr.intent.category.INPUT_HOST
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:11:5-14:14
+action#com.qualcomm.qti.openxr.intent.action.BIND
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:12:9-77
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:12:17-74
+category#com.qualcomm.qti.openxr.intent.category.INPUT_HOST
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:13:9-87
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:13:19-84
+uses-sdk
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml

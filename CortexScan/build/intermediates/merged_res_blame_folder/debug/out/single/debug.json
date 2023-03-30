@@ -1,0 +1,670 @@
+[
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_ic_startupscreen_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/ic_startupscreen_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_iso_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_iso_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_ean8_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/ean8_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_v2c_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_ean13_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/ean13_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-mdpi_ic_app_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-mdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml-v21_preferences.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml-v21/preferences.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_symbologypref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/symbologypref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_large_data_gradient.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/large_data_gradient.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_activate_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_information_license.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/information_license.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_ic_splashscreen_background.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/ic_splashscreen_background.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxhdpi_ic_app_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-ldpi_button_background_tablet_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-ldpi/button_background_tablet_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_illuminationpref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/illuminationpref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_button_background_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/button_background_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_illuminationpref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/illuminationpref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_fluorescent_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_fluorescent_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_shade_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_shade_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-hdpi_ic_app_logo_round.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-hdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_twilight_white_sq_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_twilight_white_sq_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_auto_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_auto_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_main_view.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/main_view.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_focusdistance.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/focusdistance.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_upca_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/upca_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_straight2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/straight2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_focuspref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/focuspref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_exposurepref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/exposurepref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_camerapref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/camerapref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_settings_preference.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/settings_preference.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_twilight_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_twilight_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_shade_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_shade_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_scan_button_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/scan_button_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_camerasettings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/camerasettings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_gs1databar_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/gs1databar_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_activate_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxxhdpi_ic_app_logo_round.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxxhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_ic_startup_footer.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/ic_startup_footer.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_zoom_slider_button.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/zoom_slider_button.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_exposurepref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/exposurepref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_focusdistance.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/focusdistance.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_focusdistance.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/focusdistance.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_exposurepref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/exposurepref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_incandescent_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_incandescent_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_hk2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/hk2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_zoom_magnifier_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/zoom_magnifier_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_c2v_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_camera.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/camera.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_advanced_preference_switch.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/advanced_preference_switch.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_camera_front.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/camera_front.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_cloudy_daylight_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_cloudy_daylight_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap_zoom_white_icon.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap/zoom_white_icon.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_exposurepref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/exposurepref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_done_button.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/done_button.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_advancedfocussetting.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/advancedfocussetting.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_focuspref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/focuspref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_activity_license.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/activity_license.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_resolution_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/resolution_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_c2v_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-mdpi_ic_app_logo_round.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-mdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_daylight_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_daylight_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_large_data_view.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/large_data_view.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_resolution_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/resolution_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_settings_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/settings_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_image_capture_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/image_capture_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_upce_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/upce_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_v2c_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_camera_slider_shape.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/camera_slider_shape.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_c2v_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_resolution_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/resolution_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml-v21_symbologies.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml-v21/symbologies.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_activate_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_scan_button_grey.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/scan_button_grey.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_activation_code_dialog.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/activation_code_dialog.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_image_capture_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/image_capture_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_settings_preference.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/settings_preference.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_zoom_slider_button.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/zoom_slider_button.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_logo_top_of_screen.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/logo_top_of_screen.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-anydpi-v26_ic_app_logo_round.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-anydpi-v26/ic_app_logo_round.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_settings_preference.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/settings_preference.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_v2c_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_focuspref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/focuspref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_camerapref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/camerapref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_camerapref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/camerapref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_zoom_slider_button.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/zoom_slider_button.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap_ic_menu_settings_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap/ic_menu_settings_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap_zoom_magnifier_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap/zoom_magnifier_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_focuspref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/focuspref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_activate_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxhdpi_ic_app_logo_round.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_illuminationpref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/illuminationpref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_camera_front.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/camera_front.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxxhdpi_ic_app_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-ldpi_button_background_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-ldpi/button_background_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_settings_preference.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/settings_preference.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_nec2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/nec2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_v2c_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_exposure_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_exposure_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_fluorescent_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_fluorescent_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_auto_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_auto_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_c2v_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_camera_slider_white_48.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/camera_slider_white_48.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_activate_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_mainscreen_popup.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/mainscreen_popup.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_daylight_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_daylight_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_decode_data_format_preference.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/decode_data_format_preference.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_symbologypref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/symbologypref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-hdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-hdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_resolution_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/resolution_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_v2c_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_twilight_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_twilight_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_camerapref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/camerapref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_mainscreen_popup.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/mainscreen_popup.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xhdpi_ic_app_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_get_started_btn.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/get_started_btn.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_licensepreference.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/licensepreference.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_image_capture_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/image_capture_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-anydpi-v26_ic_app_logo.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-anydpi-v26/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_settings_preference.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/settings_preference.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_code39_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/code39_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_wb_twilight_white_644.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/wb_twilight_white_644.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_zoom_slider_button.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/zoom_slider_button.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxxhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxxhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_codabar_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/codabar_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_white_balance_layout.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/white_balance_layout.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-mdpi_exposurepref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-mdpi/exposurepref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout-sw600dp_main_view.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout-sw600dp/main_view.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_live_camera_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/live_camera_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_cloudy_white_64.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_cloudy_white_64.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_get_it_now.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/get_it_now.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_symbologypref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/symbologypref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xxhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xxhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap_ic_menu_settings_alpha.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap/ic_menu_settings_alpha.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_camerapref_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/camerapref_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_background_gradient.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/background_gradient.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-mdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-mdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_wb_cloudy_white.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/wb_cloudy_white.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_iata2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/iata2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_camera.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/camera.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_button_background_tablet_selector.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/button_background_tablet_selector.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_ic_splashscreen_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/ic_splashscreen_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_code128_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/code128_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_msiplessey_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/msiplessey_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_code11_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/code11_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_information.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/information.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_focuspref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/focuspref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_interleaved2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/interleaved2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-hdpi_ic_app_logo.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-hdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_activity_start_up_screen.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/activity_start_up_screen.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_white_balance_scale.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/white_balance_scale.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/mipmap-xhdpi_ic_app_logo_round.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/mipmap-xhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_resolution_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/resolution_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_illuminationpref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/illuminationpref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_c2v_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xhdpi_illuminationpref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xhdpi/illuminationpref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_arrow_back_white_24.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_code93_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/code93_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_background_gradient.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/background_gradient.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/layout_activity_splash_screen.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_matrix2o5_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/matrix2o5_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxhdpi_camerapref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxhdpi/camerapref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-xxxhdpi_symbologypref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-xxxhdpi/symbologypref_tq.png"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable_large_data_gradient.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable/large_data_gradient.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/xml_compositecode_symbology_settings.xml.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/xml/compositecode_symbology_settings.xml"
+    },
+    {
+        "merged": "com.codecorp.cortex_scan.CortexScan-merged_res-17:/drawable-hdpi_symbologypref_tq.png.flat",
+        "source": "com.codecorp.cortex_scan.CortexScan-CortexScan-18:/drawable-hdpi/symbologypref_tq.png"
+    }
+]

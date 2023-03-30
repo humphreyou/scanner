@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff000000</color>
+    <color name="primary_dark">#ff000000</color>
+    <color name="accent">#ffffffff</color>
+
+    <color name="green">#67A3FF4A</color>
+    <color name="cross_hairs">#ff80d25b</color>
+    <color name="picklist_fill">#4080c4d2</color>
+    <color name="picklist_stroke">#400000ff</color>
+
+    <color name="action_bar">#ff9e2026</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="status_bar">#79060C</color>
+
+    <color name="colorPrimary">#000b2b</color>
+    <color name="colorPrimaryDark">#00061a</color>
+    <color name="colorAccent">#F0532C</color>
+    <color name="colorPrimaryLight">#001e60</color>
+    <color name="colorPrimaryText">#ffffff</color>
+    <color name="colorURL">#00a2e2</color>
+</resources>

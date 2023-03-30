@@ -1,0 +1,291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.decoder.scanner"
+4    android:versionCode="79"
+5    android:versionName="3.4.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:8:5-80
+11-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:8:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:9:5-81
+12-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:10:5-66
+13-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:10:22-63
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:11:5-67
+14-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:12:5-79
+15-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:11:5-65
+16-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:11:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:15:5-60
+18-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:15:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:16:5-70
+19-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:16:19-67
+20    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+20-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:5-74
+20-->[:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\ee97b7de9120c1f528b47ca611c43567\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:19-71
+21
+22    <queries>
+22-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-23:15
+23        <intent>
+23-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-22:18
+24            <action android:name="com.qualcomm.qti.openxr.intent.action.BIND" />
+24-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-81
+24-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:21-78
+25
+26            <category android:name="com.qualcomm.qti.openxr.intent.category.INPUT_HOST" />
+26-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-91
+26-->[:xDecoder] F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:23-88
+27        </intent>
+28    </queries>
+29
+30    <application
+30-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:15:5-73:19
+31        android:name="com.decoder.scanner.MyApplication"
+31-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:16:9-57
+32        android:allowBackup="false"
+32-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:17:9-36
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.7.0] C:\Users\humphreyou\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_app_logo"
+36-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:18:9-43
+37        android:label="@string/app_name"
+37-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:19:9-41
+38        android:largeHeap="true"
+38-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:22:9-33
+39        android:supportsRtl="true"
+39-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:21:9-35
+40        android:theme="@style/AppTheme" >
+40-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:20:9-40
+41        <activity
+41-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:24:9-35:20
+42            android:name="com.decoder.scanner.MainActivity"
+42-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:25:13-41
+43            android:configChanges="orientation|screenSize"
+43-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:26:13-59
+44            android:exported="true"
+44-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:29:13-36
+45            android:label="@string/app_name"
+45-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:27:13-45
+46            android:screenOrientation="portrait"
+46-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:28:13-49
+47            android:theme="@style/AppTheme" >
+47-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:30:13-44
+48            <intent-filter>
+48-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:31:13-34:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:32:17-69
+49-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:32:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:33:17-77
+51-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:33:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:36:9-43:57
+55            android:name="com.decoder.scanner.ImageRollActivity"
+55-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:37:13-46
+56            android:configChanges="orientation|screenSize"
+56-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:38:13-59
+57            android:label=" Image Roll"
+57-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:39:13-40
+58            android:launchMode="singleTop"
+58-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:40:13-43
+59            android:parentActivityName="com.decoder.scanner.MainActivity"
+59-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:41:13-55
+60            android:screenOrientation="portrait"
+60-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:42:13-49
+61            android:theme="@style/GridTheme" />
+61-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:43:13-45
+62        <activity
+62-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:44:9-50:56
+63            android:name="com.decoder.scanner.SettingsActivity"
+63-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:45:13-45
+64            android:configChanges="orientation|screenSize"
+64-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:46:13-59
+65            android:label="Settings"
+65-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:47:13-37
+66            android:parentActivityName="com.decoder.scanner.MainActivity"
+66-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:48:13-55
+67            android:screenOrientation="portrait"
+67-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:49:13-49
+68            android:theme="@style/AppTheme" />
+68-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:50:13-44
+69        <activity
+69-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:51:9-57:56
+70            android:name="com.decoder.scanner.LicenseActivity"
+70-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:52:13-44
+71            android:configChanges="orientation|screenSize"
+71-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:53:13-59
+72            android:label="@string/license_activation"
+72-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:54:13-55
+73            android:parentActivityName="com.decoder.scanner.SettingsActivity"
+73-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:55:13-59
+74            android:screenOrientation="portrait"
+74-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:56:13-49
+75            android:theme="@style/AppTheme" />
+75-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:57:13-44
+76        <activity
+76-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:59:9-64:20
+77            android:name="com.decoder.sdk.LiveBarcodeScanningActivity"
+77-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:60:13-71
+78            android:exported="false"
+78-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:61:13-37
+79            android:screenOrientation="portrait"
+79-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:62:13-49
+80            android:theme="@style/SdkTheme" >
+80-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:63:13-44
+81        </activity>
+82        <activity
+82-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:66:9-72:20
+83            android:name="com.decoder.sdk.settings.SettingsActivity"
+83-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:67:13-69
+84            android:exported="false"
+84-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:68:13-37
+85            android:label="Camera Settings"
+85-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:69:13-44
+86            android:screenOrientation="portrait"
+86-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:70:13-49
+87            android:theme="@style/SdkTheme" >
+87-->F:\scanSDK\src\CortexDecoderForAndroid\xScanner\AndroidManifest.xml:71:13-44
+88        </activity>
+89
+90        <service
+90-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:11:9-17:19
+91            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+91-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:12:13-91
+92            android:directBootAware="true"
+92-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:17:13-43
+93            android:exported="false" >
+93-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:13:13-37
+94            <meta-data
+94-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:14:13-16:85
+95                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+95-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:15:17-136
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.mlkit:object-detection:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7f1c35923d897e10d38344ef9dfbd946\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:16:17-82
+97            <meta-data
+97-->[com.google.mlkit:language-id:16.1.0] C:\Users\humphreyou\.gradle\caches\transforms-3\c54b07c7f54b2ac5561e19a9fa7adf05\transformed\jetified-language-id-16.1.0\AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar"
+98-->[com.google.mlkit:language-id:16.1.0] C:\Users\humphreyou\.gradle\caches\transforms-3\c54b07c7f54b2ac5561e19a9fa7adf05\transformed\jetified-language-id-16.1.0\AndroidManifest.xml:12:17-113
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.mlkit:language-id:16.1.0] C:\Users\humphreyou\.gradle\caches\transforms-3\c54b07c7f54b2ac5561e19a9fa7adf05\transformed\jetified-language-id-16.1.0\AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\25ffbe3e425222e49f0882165e8c2c2a\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+101-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\25ffbe3e425222e49f0882165e8c2c2a\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:12:17-133
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\25ffbe3e425222e49f0882165e8c2c2a\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0615662bcaecfca33b7f4cd906840f8e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:12:13-14:85
+104                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0615662bcaecfca33b7f4cd906840f8e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:13:17-120
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0615662bcaecfca33b7f4cd906840f8e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:14:17-82
+106            <meta-data
+106-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\humphreyou\.gradle\caches\transforms-3\c5a45f9a8b0fc5283874ece7821fc827\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:14:13-16:85
+107                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+107-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\humphreyou\.gradle\caches\transforms-3\c5a45f9a8b0fc5283874ece7821fc827\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:15:17-103
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\humphreyou\.gradle\caches\transforms-3\c5a45f9a8b0fc5283874ece7821fc827\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:16:17-82
+109            <meta-data
+109-->[com.google.mlkit:vision-common:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\8dc186ff7e706ffe8dd8b637b3bac64d\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:12:13-14:85
+110                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+110-->[com.google.mlkit:vision-common:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\8dc186ff7e706ffe8dd8b637b3bac64d\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:13:17-124
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.mlkit:vision-common:17.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\8dc186ff7e706ffe8dd8b637b3bac64d\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:14:17-82
+112            <meta-data
+112-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:20:13-22:85
+113                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+113-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:21:17-120
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:22:17-82
+115        </service>
+116
+117        <provider
+117-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:9:9-13:38
+118            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+118-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:10:13-78
+119            android:authorities="com.decoder.scanner.mlkitinitprovider"
+119-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:11:13-69
+120            android:exported="false"
+120-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:12:13-37
+121            android:initOrder="99" />
+121-->[com.google.mlkit:common:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2dcc3cc5adc9b96c421dd78eb269115d\transformed\jetified-common-18.0.0\AndroidManifest.xml:13:13-35
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\humphreyou\.gradle\caches\transforms-3\83a3f1d22377343828f93e04efac90b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\humphreyou\.gradle\caches\transforms-3\83a3f1d22377343828f93e04efac90b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\humphreyou\.gradle\caches\transforms-3\83a3f1d22377343828f93e04efac90b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\humphreyou\.gradle\caches\transforms-3\83a3f1d22377343828f93e04efac90b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7c9211a8f4a5cdf4e2e140581bc1db8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7c9211a8f4a5cdf4e2e140581bc1db8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\7c9211a8f4a5cdf4e2e140581bc1db8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+131
+132        <provider
+132-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\humphreyou\.gradle\caches\transforms-3\70ca22834771b72c13e942b6ff284586\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+133            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\humphreyou\.gradle\caches\transforms-3\70ca22834771b72c13e942b6ff284586\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+134            android:authorities="com.decoder.scanner.lifecycle-process"
+134-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\humphreyou\.gradle\caches\transforms-3\70ca22834771b72c13e942b6ff284586\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+135            android:exported="false"
+135-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\humphreyou\.gradle\caches\transforms-3\70ca22834771b72c13e942b6ff284586\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+136            android:multiprocess="true" />
+136-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\humphreyou\.gradle\caches\transforms-3\70ca22834771b72c13e942b6ff284586\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+137
+138        <service
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+139            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+140            android:exported="false" >
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+141            <meta-data
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+142                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+142-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+143                android:value="cct" />
+143-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\humphreyou\.gradle\caches\transforms-3\35b03f0bc8fb26d711add5efcb0dd40f\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+144        </service>
+145        <service
+145-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+146-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+147            android:exported="false"
+147-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" >
+148-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+149        </service>
+150
+151        <receiver
+151-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+152            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+152-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+153            android:exported="false" />
+153-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\humphreyou\.gradle\caches\transforms-3\6e264c3f1c86a334e4d202ff90c5bd05\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+154    </application>
+155
+156</manifest>

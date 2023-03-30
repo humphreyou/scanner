@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.library'
+    id 'com.gladed.androidgitversion' version '0.4.14'
+}
+
+android {
+    compileSdk 30
+    ndkVersion '21.3.6528147'
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 29
+        versionCode 01
+        versionName "0.0.1"
+
+        // Android studio will not generate VERSION_CODE/VERSION_NAME automatically when library
+        // project was used as a module in another project. To workaround this, manually adding
+        // new fields for version name/version code. See
+        // https://issuetracker.google.com/issues/158695880#comment15 for detail.
+        buildConfigField 'int', 'BUILD_VERSION_CODE', "$versionCode"
+        buildConfigField 'String', 'BUILD_VERSION_NAME', "\"$versionName\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    // Depending on AndroidX Snapshot Builds to get the latest CameraX libs.
+    maven { url 'https://androidx.dev/snapshots/builds/6787662/artifacts/repository/' }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.annotation:annotation:1.3.0"
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    // Use this dependency to bundle the model with your app
+    // https://developers.google.com/ml-kit/vision/barcode-scanning/android
+    // https://developers.google.com/android/guides/module-install-apis
+    // https://developers.google.com/ml-kit
+    implementation 'com.google.mlkit:language-id:16.1.0'
+    implementation 'com.google.mlkit:barcode-scanning:17.0.2'
+    // Object feature and model
+    implementation 'com.google.mlkit:object-detection:17.0.0'
+    // Custom model
+    implementation 'com.google.mlkit:object-detection-custom:17.0.0'
+}

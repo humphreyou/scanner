@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="advanced_focus_settings">
+    <ListPreference
+        android:defaultValue="auto-select"
+        android:entries="@array/camera_api_entries"
+        android:entryValues="@array/camera_api_values"
+        android:key="cameraAPI"
+        android:title="Camera API" />
+    <SwitchPreference
+        android:key="autofocus_reset_count"
+        android:title="Autofocus reset by count" />
+    <SwitchPreference
+        android:key="autofocus_reset_interval"
+        android:title="Autofocus reset by time interval" />
+</PreferenceScreen>

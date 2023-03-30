@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="resolution_entries">
+        <item>3840 x 2160</item>
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 480</item>
+    </string-array>
+    <string-array name="resolution_values">
+        <item>3840 x 2160</item>
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 480</item>
+    </string-array>
+    <string-array name="beep_entries">
+        <item>Default Beep</item>
+        <item>Carbilicon Beep</item>
+        <item>Computer Beep</item>
+        <item>Tone Beep</item>
+    </string-array>
+    <string-array name="autofocus_entries">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>3000</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="beep_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="encoding_values">
+        <item>US-ASCII</item>
+        <item>ISO-8859-1</item>
+        <item>UTF-8</item>
+        <item>UTF-16</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>GB2312</item>
+        <item>Shift_JIS</item>
+    </string-array>
+    <string-array name="illumination_entries">
+        <item>Auto</item>
+        <item>Always On</item>
+        <item>Always Off</item>
+    </string-array>
+    <string-array name="illumination_values">
+        <item>Auto</item>
+        <item>Always On</item>
+        <item>Always Off</item>
+    </string-array>
+    <string-array name="debug_level_entries">
+        <item>Off</item>
+        <item>On</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="debug_level_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="camera_api_values">
+        <item>auto-select</item>
+        <item>camera1</item>
+        <item>camera2</item>
+    </string-array>
+    <string-array name="camera_api_entries">
+        <item>Auto-select</item>
+        <item>Camera1</item>
+        <item>Camera2</item>
+    </string-array>
+    <string-array name="codabar_checksum_entries">
+        <item>No checksum</item>
+        <item>Use checksum and output check char</item>
+        <item>Use checksum and strip check char</item>
+    </string-array>
+    <string-array name="codabar_checksum_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="code11_checksum_entries">
+        <item>No checksum</item>
+        <item>Use 1-digit checksum and output check char</item>
+        <item>Use 1-digit checksum and strip check char</item>
+        <item>Use 2-digit checksum and output check char</item>
+        <item>Use 2-digit checksum and strip check char</item>
+    </string-array>
+    <string-array name="code11_checksum_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msiplessey_checksum_entries">
+        <item>No checksum</item>
+        <item>Use Mod 10 checksum and output check char</item>
+        <item>Use Mod 10 checksum and strip check char</item>
+        <item>Use Mod 10/10 checksum and output check chars</item>
+        <item>Use Mod 10/10 checksum and strip check chars</item>
+        <item>Use Mod 11/10 checksum and output check char</item>
+        <item>Use Mod 11/10 checksum and strip check char</item>
+    </string-array>
+    <string-array name="msiplessey_checksum_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="dpm_entries">
+        <item>No DPM</item>
+        <item>Dot Peen(Dark on Light)</item>
+        <item>Dot Peen(Light on Dark)</item>
+        <item>Laser/Chem Etching</item>
+    </string-array>
+    <string-array name="dpm_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dpm_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="save_images_entries">
+        <item>Not saving image</item>
+        <item>Capture with successful decoding</item>
+        <item>Capture with decoder failure</item>
+        <item>Capture with decode data match</item>
+        <item>Capture with decode data mismatch</item>
+        <item>Capture before decoding/delete after</item>
+    </string-array>
+    <string-array name="save_images_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="dataparsing_entries">
+        <item>No Parsing</item>
+        <item>Driver’s License Parsing</item>
+        <item>String Matching/Replacing</item>
+        <item>GS1 Parsing</item>
+        <item>ISO Validation</item>
+        <item>UDI Validation</item>
+        <item>JSON DL Parsing</item>
+    </string-array>
+    <string-array name="dataparsing_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>

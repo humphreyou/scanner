@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings_preferences">
+    <Preference
+        android:icon="@drawable/symbologypref_tq"
+        android:key="symbologies"
+        android:title="@string/symbologies" />
+    <Preference
+        android:icon="@drawable/camerapref_tq"
+        android:key="camera_settings"
+        android:summary="Focus, Resolution, Exposure"
+        android:title="Camera Settings" />
+    <ListPreference
+        android:defaultValue="UTF-8"
+        android:entries="@array/encoding_values"
+        android:entryValues="@array/encoding_values"
+        android:key="encoding_character"
+        android:summary="%s"
+        android:title="@string/character_encoding" />
+    <com.codecorp.cortex_scan.SeekBarPreference
+        android:defaultValue="1"
+        android:key="seekbar_value"
+        android:max="20"
+        android:title="Barcodes to Decode" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="n_barcodes"
+        android:title="Decode Exactly N Barcodes" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="multi_frame_decode"
+        android:title="Enable Multi Frame decoding" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="low_contrast_mode"
+        android:title="@string/low_contrast_mode" />
+    <ListPreference
+        android:entries="@array/dpm_entries"
+        android:entryValues="@array/dpm_values"
+        android:key="direct_part_marking"
+        android:title="@string/direct_part_marking_string" />
+    <Preference
+        android:key="decode_data_format_parse"
+        android:title="@string/decode_data_formatting_string" />
+    <!--<ListPreference
+        android:defaultValue="0"
+        android:entries="@array/decode_dataformat_entries"
+        android:entryValues="@array/decode_dataformat_values"
+        android:key="decode_data_formatting"
+        android:title="@string/decode_data_formatting_string" />-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="vibrate_on_scan"
+        android:title="@string/vibrate_on_scan" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="beep_mode"
+        android:title="@string/beep_mode" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/beep_entries"
+        android:entryValues="@array/beep_values"
+        android:key="beep_sounds"
+        android:summary="%s"
+        android:title="@string/beep_sounds" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="continuous_scan_mode"
+        android:title="@string/continuous_scan_mode" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="large_data_display"
+        android:title="@string/large_data_display" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="picklist_mode"
+        android:title="@string/picklist_mode" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="barcode_locator"
+        android:title="Highlight Scanned Barcode" />
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/debug_level_entries"
+        android:entryValues="@array/debug_level_values"
+        android:key="debug_level"
+        android:title="@string/debug_level" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="debug_mode"
+        android:title="@string/debug_mode" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="decode_count"
+        android:title="Decode count per minute" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/save_images_entries"
+        android:entryValues="@array/save_images_values"
+        android:key="save_images"
+        android:title="Save Images" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="multi_res_mode"
+        android:title="Multi-Resolution mode" />
+    <Preference
+        android:key="license_activate"
+        android:title="@string/license_activation" />
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!--style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar"-->
+        <item name="colorPrimary">@color/action_bar</item>
+        <item name="colorPrimaryDark">@color/status_bar</item>
+        <item name="colorAccent">@color/action_bar</item>
+        <item name="android:windowBackground">@color/grey</item>
+        <!--item name="android:windowBackground">@color/white</item-->
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTheme" parent="@android:style/Theme.NoTitleBar"></style>
+
+    <!--style name="GridTheme" parent="@style/Theme.AppCompat.Light.NoActionBar"-->
+    <style name="GridTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/action_bar</item>
+        <item name="colorPrimaryDark">@color/status_bar</item>
+        <item name="colorAccent">@color/action_bar</item>
+    </style>
+</resources>

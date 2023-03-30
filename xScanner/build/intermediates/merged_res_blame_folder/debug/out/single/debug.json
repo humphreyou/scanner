@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_menu_settings_white.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_menu_settings_white.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qr_3.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qr_3.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_d_5.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/d_5.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-mdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-mdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-mdpi_v2c_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-mdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_photo48.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/photo48.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_drawer_layout.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/drawer_layout.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_icons8_scan_64_grey.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/icons8_scan_64_grey.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_ic_launcher.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_foreground_.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_foreground_.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qr_6.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qr_6.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-hdpi_c2v_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-hdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_picture348.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/picture348.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_multibarcode6.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/multibarcode6.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xhdpi_c2v_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_main_nav_header.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/main_nav_header.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xhdpi_activate_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_logo_top_of_screen.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/logo_top_of_screen.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-mdpi_c2v_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-mdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxhdpi_activate_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_activity_license.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/activity_license.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_activity_settings.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_picture248.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/picture248.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxhdpi_c2v_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_navigationwhite.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/navigationwhite.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_activation_code_dialog.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/activation_code_dialog.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_d_4.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/d_4.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qr_7.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qr_7.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_image_icon.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/image_icon.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-anydpi-v26_ic_app_logo_round.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-anydpi-v26/ic_app_logo_round.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_default_qrcode.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/default_qrcode.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_barcode_grid.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/barcode_grid.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/menu_appbar.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/menu/appbar.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_issn_1.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/issn_1.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-mdpi_activate_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-mdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_multibarcode5.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/multibarcode5.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-hdpi_v2c_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-hdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_icons8_scan_64.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/icons8_scan_64.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxxhdpi_activate_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxxhdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_logo_top_of_screen_o2.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/logo_top_of_screen_o2.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_app_logo.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_menu_settings_black.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_menu_settings_black.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_d_1.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/d_1.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xhdpi_ic_app_logo_round.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_upc_color.jpg.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/upc_color.jpg"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xhdpi_ic_app_logo.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxxhdpi_v2c_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxxhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxhdpi_ic_app_logo.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxhdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qr_5.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qr_5.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxhdpi_v2c_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_content_main.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-mdpi_ic_app_logo_round.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-mdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-hdpi_activate_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-hdpi/activate_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_roundedbutton.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/roundedbutton.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_app_logo_round.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qr_8.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qr_8.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_multibarcode4.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/multibarcode4.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_o.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_o.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxhdpi_ic_app_logo_round.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxhdpi_navigationwhite.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxhdpi/navigationwhite.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_foreground_o.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_foreground_o.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/menu_main_drawer.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/menu/main_drawer.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xhdpi_navigationwhite.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xhdpi/navigationwhite.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_foreground.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_foreground.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_simpleone.jpg.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/simpleone.jpg"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_logo_top_of_screen_o.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/logo_top_of_screen_o.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-mdpi_ic_app_logo.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-mdpi/ic_app_logo.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_round.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_round.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xxxhdpi_c2v_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xxxhdpi/c2v_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_arrow_back_white_24.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_scan_button_grey.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/scan_button_grey.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/xml-v21_preferences.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/xml-v21/preferences.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_button_background_selector.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/button_background_selector.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_multibarcode7.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/multibarcode7.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_scan_button_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/scan_button_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/layout_main_appbar.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/layout/main_appbar.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_navigationwhite.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/navigationwhite.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable-xhdpi_v2c_tq.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable-xhdpi/v2c_tq.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_d_6.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/d_6.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/drawable_qrcode_gray.jpg.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/drawable/qrcode_gray.jpg"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-xxxhdpi_ic_app_logo_round_.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-xxxhdpi/ic_app_logo_round_.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-mdpi_navigationwhite.png.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-mdpi/navigationwhite.png"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/xml-v21_licensepreference.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/xml-v21/licensepreference.xml"
+    },
+    {
+        "merged": "com.decoder.scanner.xScanner-merged_res-27:/mipmap-anydpi-v26_ic_app_logo.xml.flat",
+        "source": "com.decoder.scanner.xScanner-xScanner-28:/mipmap-anydpi-v26/ic_app_logo.xml"
+    }
+]

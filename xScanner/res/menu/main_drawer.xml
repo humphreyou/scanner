@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:id="@+id/picGroup"
+           android:background="@color/primary_1"
+           android:horizontalSpacing="10dip">
+        <item
+            android:id="@+id/phoneGallery"
+            android:icon="@drawable/photo48"
+            android:checked="true"
+            android:title="Phone Gallery" />
+        <item
+            android:id="@+id/barcodeGallery"
+            android:icon="@drawable/picture348"
+            android:title="Barcode Gallery" />
+        <item
+            android:id="@+id/defaultImage"
+            android:icon="@drawable/picture248"
+            android:title="Default Image" />
+    </group>
+    <group android:id="@+id/settingsGroup">
+        <item
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_menu_settings_black"
+            android:title="Settings"></item>
+    </group>
+</menu>

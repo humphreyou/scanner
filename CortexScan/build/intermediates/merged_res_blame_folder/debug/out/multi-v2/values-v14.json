@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codecorp.cortex_scan.CortexScan-mergeDebugResources-15:/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "F:\\scanSDK\\src\\CortexDecoderForAndroid\\CortexScan\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7,11,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "220,369,459",
+                        "endLines": "9,13,20",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "363,453,759"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,154,243",
+                        "endLines": "4,7,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "149,238,543"
+                    }
+                }
+            ]
+        }
+    ]
+}

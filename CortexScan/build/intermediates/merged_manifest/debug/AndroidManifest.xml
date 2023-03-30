@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.decoder.scanner"
+    android:versionCode="79"
+    android:versionName="3.4.1" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.codecorp.cortex_scan.MyApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_app_logo"
+        android:label="CortexScan"
+        android:largeHeap="true" >
+        <activity
+            android:name="com.codecorp.cortex_scan.SplashScreen"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codecorp.cortex_scan.StartUpScreen"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.CortexScan"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/scanner_activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ScannerTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/settings"
+            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.InformationActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/information"
+            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/symbologies"
+            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.LicenseActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/license_activation"
+            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LicenseTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.LicenseActivityDeprecated"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/license_activation"
+            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.AdvancedFocusSettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Advanced Focus Settings"
+            android:parentActivityName="com.codecorp.cortex_scan.CameraSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.CameraSettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Camera Settings"
+            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.LargeDataActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/data_display"
+            android:parentActivityName="com.codecorp.cortex_scan.CortexScan"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.CodabarSymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Codabar Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code128SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Code128 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code93SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Code93 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code11SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Code11 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Code39SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Code39 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.EAN13SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="EAN-13 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.EAN8SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="EAN-8 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.HongKong2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="HongKong 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.IATA2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="IATA 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Interleaved2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Interleaved 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Matrix2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Matrix 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.NEC2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="NEC 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.Straight2of5SymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Straight 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.MSIPlesseySymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="MSI Plessey 2 of 5 Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.UPCASymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="UPC-A Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.UPCESymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="UPC-E Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.GS1DataBarSymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="GS1 DataBar Properties"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.detailsymbologysettings.CompositeCodeSymbologySettings"
+            android:configChanges="orientation|screenSize"
+            android:label="Composite Code"
+            android:parentActivityName="com.codecorp.cortex_scan.SymbologiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name="com.codecorp.cortex_scan.DecodeDataParsingFormatting"
+            android:configChanges="orientation|screenSize"
+            android:label="Data Parsing and Formatting"
+            android:parentActivityName="com.codecorp.cortex_scan.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsTheme" />
+    </application>
+
+</manifest>

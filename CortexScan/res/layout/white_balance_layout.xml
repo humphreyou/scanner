@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical">
+
+    <!--<com.codecorp.cortex_scan.WhiteBalanceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/white_balance"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/camera_slider_shape"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+    </com.codecorp.cortex_scan.WhiteBalanceLayout>-->
+
+    <TextView
+        android:id="@+id/white_balance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/zoomLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/zoomSliderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/zoom_slider_button"
+            android:text="Zoom" />
+
+        <SeekBar
+            android:id="@+id/zoom_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:progressTint="@android:color/white"
+            android:thumbTint="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exposureLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/exposure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/wb_exposure_white_64"
+            android:text="EV" />
+
+        <SeekBar
+            android:id="@+id/exposure_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:progressTint="@android:color/white"
+            android:thumbTint="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/isoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/wb_iso_64" />
+
+        <SeekBar
+            android:id="@+id/iso_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:progressTint="@android:color/white"
+            android:thumbTint="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/focusDistanceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/focusdistance"
+            android:text="Focus Distance" />
+
+        <SeekBar
+            android:id="@+id/focus_distance_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:progressTint="@android:color/white"
+            android:thumbTint="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

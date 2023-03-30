@@ -1,0 +1,632 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\943efc10260bf561ee5be34e3461cfbf\transformed\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\fad0631b695ac311211deded6099821f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\59b2b8aa966ca0505256a3e2c67b2462\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\392f1217dc4e6064a586554744d96ebb\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\humphreyou\.gradle\caches\transforms-3\862b8492dd4c91a80108d77a7af77b9e\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\4adf412e9eb6257b08f1a55b81966117\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2f7f12fc28c68144e8f2ac1e0a98879e\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\432b59597548faa8e170bdfcf256215f\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2cc3a3538e519d82d0ee4462a99ce47c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\ba7cefdb273346127bf361e693a2077a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\21de2c5076ca3e7e4a6f46475d73654f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5ed3d63189e1465c2d1fe23cfae2a359\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e0836ea20c8733879c985edd27366671\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\089f3a62207b4741a667b58aa013b8b6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\d6f048992aa4c98c57a5f34754783a6f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\993343e821476bcd1840e4c689eca50e\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\6288329dc9f81b44d707170357848660\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5b9812e3e90bc8877a40c92e69f6797e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\f5000f73130b69910a081e3326ad36cc\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\9f821840f0946fb195a4a95a81f9631c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\417d9309e97530006593d3a748b223c5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0751861119962ac0f78d2deaf3a4a68f\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\270236054373ef2c7531f588cf1d7a11\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e1a62715087a89352861ae3443fed18d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e75e9f2f245b26a77eb85d968fb94e16\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\515b01c1f1b6c0d007494e5098e90b5a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\01bc8368ad5575d4d6f30c21d182f95c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\72f1940f015bcc005a737b3aab30d906\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\bea07825b7217081cc6ac437eb5d453f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\24b0704670ce5ba7a654b3025d163fdf\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0dff1c662625ea984670c5782fc7d571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\45b72bf86ea80fce2b63582a30f5cef2\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\05eb5b7623b154418903d97436d6aa68\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12
+	package
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:3:5-39
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:5:5-32
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:4:5-29
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:7:5-65
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:11:5-65
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.INTERNET
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:9:5-81
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:13:5-81
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:10:5-66
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:12:5-66
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:11:22-76
+uses-feature#android.hardware.camera
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:13:5-60
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:15:5-60
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:13:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:14:5-70
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:16:5-70
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:14:19-67
+application
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:16:5-236:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\59b2b8aa966ca0505256a3e2c67b2462\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\59b2b8aa966ca0505256a3e2c67b2462\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\humphreyou\.gradle\caches\transforms-3\862b8492dd4c91a80108d77a7af77b9e\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\humphreyou\.gradle\caches\transforms-3\862b8492dd4c91a80108d77a7af77b9e\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\270236054373ef2c7531f588cf1d7a11\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\270236054373ef2c7531f588cf1d7a11\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:20:9-35
+	android:largeHeap
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:21:9-33
+	android:icon
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:18:9-36
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:17:9-38
+activity#com.codecorp.cortex_scan.SplashScreen
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:23:9-34:20
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:26:13-49
+	android:exported
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:27:13-36
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:25:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:28:13-47
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:32:27-74
+activity#com.codecorp.cortex_scan.StartUpScreen
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:35:9-39:59
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:38:13-49
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:37:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:39:13-47
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:36:13-42
+activity#com.codecorp.cortex_scan.CortexScan
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:40:9-46:60
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:45:13-49
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:43:13-53
+	android:launchMode
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:44:13-44
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:46:13-48
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:41:13-39
+activity#com.codecorp.cortex_scan.SettingsActivity
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:47:9-53:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:52:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:51:13-53
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:50:13-45
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:49:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:48:13-45
+activity#com.codecorp.cortex_scan.InformationActivity
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:54:9-60:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:59:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:58:13-53
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:57:13-48
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:56:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:55:13-48
+activity#com.codecorp.cortex_scan.SymbologiesActivity
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:61:9-67:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:66:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:65:13-59
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:64:13-48
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:63:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:62:13-48
+activity#com.codecorp.cortex_scan.LicenseActivity
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:68:9-74:51
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:73:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:72:13-59
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:71:13-55
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:70:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:69:13-44
+activity#com.codecorp.cortex_scan.LicenseActivityDeprecated
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:75:9-81:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:80:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:79:13-59
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:78:13-55
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:77:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:76:13-54
+activity#com.codecorp.cortex_scan.AdvancedFocusSettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:82:9-88:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:87:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:86:13-57
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:85:13-52
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:84:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:83:13-50
+activity#com.codecorp.cortex_scan.CameraSettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:89:9-95:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:94:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:93:13-59
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:92:13-44
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:91:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:90:13-43
+activity#com.codecorp.cortex_scan.LargeDataActivity
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:96:9-102:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:101:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:100:13-53
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:99:13-49
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:98:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:97:13-46
+activity#com.codecorp.cortex_scan.detailsymbologysettings.CodabarSymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:103:9-109:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:108:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:107:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:106:13-47
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:105:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:104:13-77
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Code128SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:110:9-116:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:115:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:114:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:113:13-47
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:112:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:111:13-77
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Code93SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:117:9-123:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:122:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:121:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:120:13-46
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:119:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:118:13-76
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Code11SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:124:9-130:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:129:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:128:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:127:13-46
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:126:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:125:13-76
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Code39SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:131:9-137:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:136:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:135:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:134:13-46
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:133:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:137:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:132:13-76
+activity#com.codecorp.cortex_scan.detailsymbologysettings.EAN13SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:138:9-144:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:143:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:142:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:141:13-46
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:140:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:139:13-75
+activity#com.codecorp.cortex_scan.detailsymbologysettings.EAN8SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:145:9-151:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:150:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:149:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:148:13-45
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:147:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:146:13-74
+activity#com.codecorp.cortex_scan.detailsymbologysettings.HongKong2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:152:9-158:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:157:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:156:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:155:13-55
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:154:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:158:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:153:13-82
+activity#com.codecorp.cortex_scan.detailsymbologysettings.IATA2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:159:9-165:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:164:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:163:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:162:13-51
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:161:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:165:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:160:13-78
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Interleaved2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:166:9-172:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:171:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:170:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:169:13-58
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:168:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:172:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:167:13-85
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Matrix2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:173:9-179:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:178:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:177:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:176:13-53
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:175:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:179:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:174:13-80
+activity#com.codecorp.cortex_scan.detailsymbologysettings.NEC2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:180:9-186:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:185:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:184:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:183:13-50
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:182:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:181:13-77
+activity#com.codecorp.cortex_scan.detailsymbologysettings.Straight2of5SymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:187:9-193:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:192:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:191:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:190:13-55
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:189:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:193:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:188:13-82
+activity#com.codecorp.cortex_scan.detailsymbologysettings.MSIPlesseySymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:194:9-200:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:199:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:198:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:197:13-58
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:196:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:200:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:195:13-80
+activity#com.codecorp.cortex_scan.detailsymbologysettings.UPCASymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:201:9-207:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:206:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:205:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:204:13-45
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:203:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:202:13-74
+activity#com.codecorp.cortex_scan.detailsymbologysettings.UPCESymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:208:9-214:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:213:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:212:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:211:13-45
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:210:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:214:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:209:13-74
+activity#com.codecorp.cortex_scan.detailsymbologysettings.GS1DataBarSymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:215:9-221:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:220:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:219:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:218:13-51
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:217:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:221:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:216:13-80
+activity#com.codecorp.cortex_scan.detailsymbologysettings.CompositeCodeSymbologySettings
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:222:9-228:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:227:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:226:13-62
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:225:13-43
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:224:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:228:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:223:13-83
+activity#com.codecorp.cortex_scan.DecodeDataParsingFormatting
+ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:229:9-235:52
+	android:screenOrientation
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:234:13-49
+	android:parentActivityName
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:233:13-59
+	android:label
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:232:13-56
+	android:configChanges
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:231:13-59
+	android:theme
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:230:13-56
+uses-sdk
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:7:5-9:41
+MERGED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\943efc10260bf561ee5be34e3461cfbf\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\943efc10260bf561ee5be34e3461cfbf\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\fad0631b695ac311211deded6099821f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\fad0631b695ac311211deded6099821f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\59b2b8aa966ca0505256a3e2c67b2462\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\59b2b8aa966ca0505256a3e2c67b2462\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\392f1217dc4e6064a586554744d96ebb\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\392f1217dc4e6064a586554744d96ebb\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\humphreyou\.gradle\caches\transforms-3\862b8492dd4c91a80108d77a7af77b9e\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\humphreyou\.gradle\caches\transforms-3\862b8492dd4c91a80108d77a7af77b9e\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\4adf412e9eb6257b08f1a55b81966117\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\4adf412e9eb6257b08f1a55b81966117\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2f7f12fc28c68144e8f2ac1e0a98879e\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2f7f12fc28c68144e8f2ac1e0a98879e\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\432b59597548faa8e170bdfcf256215f\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\432b59597548faa8e170bdfcf256215f\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2cc3a3538e519d82d0ee4462a99ce47c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\2cc3a3538e519d82d0ee4462a99ce47c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\ba7cefdb273346127bf361e693a2077a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\ba7cefdb273346127bf361e693a2077a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\21de2c5076ca3e7e4a6f46475d73654f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\21de2c5076ca3e7e4a6f46475d73654f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5ed3d63189e1465c2d1fe23cfae2a359\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5ed3d63189e1465c2d1fe23cfae2a359\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e0836ea20c8733879c985edd27366671\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e0836ea20c8733879c985edd27366671\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\089f3a62207b4741a667b58aa013b8b6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\089f3a62207b4741a667b58aa013b8b6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\d6f048992aa4c98c57a5f34754783a6f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\d6f048992aa4c98c57a5f34754783a6f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\993343e821476bcd1840e4c689eca50e\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\993343e821476bcd1840e4c689eca50e\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\6288329dc9f81b44d707170357848660\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\6288329dc9f81b44d707170357848660\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5b9812e3e90bc8877a40c92e69f6797e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\5b9812e3e90bc8877a40c92e69f6797e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\f5000f73130b69910a081e3326ad36cc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\f5000f73130b69910a081e3326ad36cc\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\9f821840f0946fb195a4a95a81f9631c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\9f821840f0946fb195a4a95a81f9631c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\417d9309e97530006593d3a748b223c5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\417d9309e97530006593d3a748b223c5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\93a41d19394d333bea3fe4647f26a496\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0751861119962ac0f78d2deaf3a4a68f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0751861119962ac0f78d2deaf3a4a68f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\270236054373ef2c7531f588cf1d7a11\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\270236054373ef2c7531f588cf1d7a11\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e1a62715087a89352861ae3443fed18d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e1a62715087a89352861ae3443fed18d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e75e9f2f245b26a77eb85d968fb94e16\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\e75e9f2f245b26a77eb85d968fb94e16\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\515b01c1f1b6c0d007494e5098e90b5a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\515b01c1f1b6c0d007494e5098e90b5a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\01bc8368ad5575d4d6f30c21d182f95c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\01bc8368ad5575d4d6f30c21d182f95c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\72f1940f015bcc005a737b3aab30d906\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\72f1940f015bcc005a737b3aab30d906\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\bea07825b7217081cc6ac437eb5d453f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\bea07825b7217081cc6ac437eb5d453f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\24b0704670ce5ba7a654b3025d163fdf\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\24b0704670ce5ba7a654b3025d163fdf\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0dff1c662625ea984670c5782fc7d571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\0dff1c662625ea984670c5782fc7d571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\45b72bf86ea80fce2b63582a30f5cef2\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\45b72bf86ea80fce2b63582a30f5cef2\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\05eb5b7623b154418903d97436d6aa68\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\humphreyou\.gradle\caches\transforms-3\05eb5b7623b154418903d97436d6aa68\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		ADDED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+		INJECTED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from [:CortexDecoderLibrary:] C:\Users\humphreyou\.gradle\caches\transforms-3\18518031743a9bff84c2a31f80530585\transformed\jetified-CortexDecoderLibrary\AndroidManifest.xml:17:19-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\scanSDK\src\CortexDecoderForAndroid\CortexScan\AndroidManifest.xml:2:1-238:12 reason: com.codecorp.cortexdecoderlibrary requested WRITE_EXTERNAL_STORAGE

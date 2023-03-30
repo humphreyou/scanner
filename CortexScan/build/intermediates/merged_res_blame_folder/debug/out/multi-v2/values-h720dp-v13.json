@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codecorp.cortex_scan.CortexScan-mergeDebugResources-15:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\humphreyou\\.gradle\\caches\\transforms-3\\392f1217dc4e6064a586554744d96ebb\\transformed\\appcompat-1.0.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

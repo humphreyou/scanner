@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.decoder.sdk" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:3:1-61
+9-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:3:18-58
+10    <uses-permission android:name="android.permission.VIBRATE" />
+10-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:4:1-62
+10-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:4:18-59
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:5:1-77
+11-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:5:18-74
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:6:1-56
+13-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:6:15-53
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:7:1-66
+14-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:7:15-63
+15    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+15-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:8:1-70
+15-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:8:15-67
+16
+17    <queries>
+17-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:10:1-15:11
+18        <intent>
+18-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:11:5-14:14
+19            <action android:name="com.qualcomm.qti.openxr.intent.action.BIND" />
+19-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:12:9-77
+19-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:12:17-74
+20
+21            <category android:name="com.qualcomm.qti.openxr.intent.category.INPUT_HOST" />
+21-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:13:9-87
+21-->F:\scanSDK\src\CortexDecoderForAndroid\xDecoder\src\main\AndroidManifest.xml:13:19-84
+22        </intent>
+23    </queries>
+24
+25</manifest>

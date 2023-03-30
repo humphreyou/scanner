@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codecorp.cortex_scan.CortexScan-mergeDebugResources-15:/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "F:\\scanSDK\\src\\CortexDecoderForAndroid\\CortexScan\\res\\values-xhdpi\\integers.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "111,55",
+                        "endColumns": "57,55",
+                        "endOffsets": "164,106"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        }
+    ]
+}

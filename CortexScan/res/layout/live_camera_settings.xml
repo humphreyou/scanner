@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_camera_setting"
+    android:layout_width="225dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="80dp"
+    android:background="@drawable/camera_slider_shape"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+
+    <!-- This is the focus line of text, slider and values -->
+    <LinearLayout
+        android:id="@+id/focus_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/focus_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text=" FD:"
+            android:textSize="12dp" />
+
+        <SeekBar
+            android:id="@+id/focus_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/focus_text"
+            android:max="15" />
+    </LinearLayout>
+
+    <!-- This is the exposure line of text, slider and values -->
+
+    <LinearLayout
+        android:id="@+id/exposure_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/focus_row"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/exposure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text=" EP:"
+            android:textSize="12dp" />
+
+        <SeekBar
+            android:id="@+id/exposure_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/exposure_text"
+            android:max="20000000" />
+    </LinearLayout>
+
+    <!-- This is the sensitivity line of text, slider and values -->
+    <LinearLayout
+        android:id="@+id/sensitivity_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exposure_row"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sensitivity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text=" ISO:"
+            android:textSize="12dp" />
+
+        <SeekBar
+            android:id="@+id/sensitivity_slider"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:max="250" />
+    </LinearLayout>
+
+</RelativeLayout>
